@@ -1,0 +1,79 @@
+
+*{
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: grid;
+    background-size: cover;
+    background-image: url(../Photo/bg_fb.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+/*div{
+     border: 1px solid; 
+}*/
+#erreur{
+    border: rgb(248, 58, 58) 2px solid;
+    text-align: center;
+    position: relative;
+    width: 30em;
+    height: 120px;
+    border-radius: 10px;
+    background-size: cover;
+    margin-left: 470px;
+    background-color: rgba(223, 27, 27, 0.507);
+}
+#erreur{
+    align-items: center;
+    margin: auto;
+    width: 100vh;
+    text-align: center;
+    height: max-content;
+   
+}
+#title{
+    margin-top: 20px;
+    text-align: center;
+    justify-items: center;
+}
+
+#txt_error{
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+button{
+    margin: 0px;;
+    width: 99px;
+    border: none;
+    background-color:  #1877f2 ;
+    border-radius: 5px;
+  
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+button:hover{
+    transform: scale(1.08);
+    background-color: white ;   
+}
+a:hover{
+    color:  #1877f2 ;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color:white ;
+    
+}
+#div1{
+    border: 1px solid;
+    height: 50vh;
+}
+
+
+
+
